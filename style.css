@@ -1,0 +1,112 @@
+@font-face {
+    font-family: CourierPrime-Regular;
+    src: Andale Mono.ttf;
+}
+* {
+    font-family: CourierPrime-Regular;
+    font-size: 13px;
+    font-weight: 100;
+}
+html {
+    anti-aliasing: none;
+}
+#lineBreak {
+    padding: 0;
+    margin-top: -5.5px;
+    margin-bottom: -5.5px;
+}
+body {
+    padding: 0;
+    margin: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+h4 {
+    padding: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+hr {
+    width: 210px;
+    cursor: default:
+    align-content: space-around;
+    margin: 0
+}
+
+#inputContainer {
+    padding-top: 15px;
+    padding-top: 15px;
+}
+#monthContainer {
+    display: inline-block
+}
+#monthForm {
+    width: 100px;
+    cursor: pointer;
+    border-color: black;
+    border-width: 1px;
+    height: 20px;
+    background-color: white;
+}
+
+#dayContainer {
+    display: inline-block
+}
+#dayForm {
+    width: 75px;
+    cursor: pointer;
+    border-color: black;
+    height: 20px;
+    border-width: 1px;
+    background-color: white;
+}
+#dayform-items {
+    color: red;
+}
+
+#yearContainer {
+    display: inline-block;
+}
+#yearForm {
+    margin: 0px;
+    width: 80px;
+    border-color: black;
+    border-width: 1px;
+    cursor: text;
+    border-radius: 5px;
+    padding-left: 9px;
+    height: 15.5px;
+    color: black;
+    background-color: white;
+}
+*:focus, *:focus-within {
+    outline: none;
+}
+::placeholder {
+    color: black;
+}
+
+#buttonContainer {
+    display: block;
+    padding-top: 14px;
+}
+#buttonDisplay {
+    border-color: black;
+    height: 20px;
+    width: 100px;
+    align-self: center;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+#buttonDisplay:active {
+    border: white;
+    margin: 0;
+    padding: 0;
+}
+p {
+    cursor: default;
+}

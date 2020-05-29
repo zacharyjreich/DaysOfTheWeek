@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+        <title>myWebpage</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+        <h4>Zach's Widget</h4>
+        <p id="lineBreak">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        <h4>Days of the Week</h4>
+        <div id="inputContainer">
+            <div id="monthContainer">
+                <select name="month" id="monthForm" onblur="interpret()">
+                    <option value="month">-month-</option>
+                    <option value="00">January</option>
+                    <option value="01">February</option>
+                    <option value="02">March</option>
+                    <option value="03">April</option>
+                    <option value="04">May</option>
+                    <option value="05">June</option>
+                    <option value="06">July</option>
+                    <option value="07">August</option>
+                    <option value="08">September</option>
+                    <option value="09">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+                </select>
+            </div>
+            <div id="dayContainer">
+                <select name="day" id="dayForm">
+                    <option value="00">-day-</option>
+                </select>
+            </div>
+            <div id="yearContainer">
+                <input name="year" type="number" min="0000" max="2020" value="" placeholder="-year-" id="yearForm">
+            </div>
+            <div id="buttonContainer">
+                <button onclick="getDay()" id="buttonDisplay">try it</button>
+            </div>
+        </div>
+        <br>
+        <div id="dayDisplayContainer">
+            <p id="dayDisplay"></p>
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
